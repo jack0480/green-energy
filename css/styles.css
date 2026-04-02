@@ -1,0 +1,171 @@
+/* COLOR PALETTE
+#0B3C49
+#1E8F7A
+#F2F2F2
+#FFFFFF
+*/
+
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.75rem;
+    line-height: 1.5;
+}
+
+h1, h2 {
+    font-family: 'Merriweather', serif;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+
+nav {
+    background: #0B3C49;
+    color: white;
+    padding: 2rem;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    margin: 0.5rem 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.masthead {
+    background: url("../img/img-1.jpg") center/cover no-repeat;
+    padding: 4rem 2rem;
+    color: white;
+}
+
+main {
+    padding: 2rem;
+}
+
+.buttons button {
+    display: block;
+    margin-bottom: 1rem;
+}
+
+.buttons {
+    margin-bottom: 2rem;
+}
+
+.buttons button {
+    padding: 0.6rem 1.2rem;
+    border: none;
+    background: #ccc;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 0.9rem;
+}
+
+.buttons button:hover {
+    background: #aaa;
+}
+
+#active-button {
+    background: #1E8F7A;
+    color: white;
+}
+
+#activate-button {
+    background: #1E8F7A;
+    color: white;
+}
+
+main img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 1rem 0;
+}
+footer {
+    background: #0B3C49;
+    color: white;
+    padding: 2rem;
+    margin-top: 2rem;
+}
+
+.icons {
+    margin-top: 1rem;
+}
+
+.icons i {
+    font-size: 1.5rem;
+    margin-right: 1rem;
+    cursor: pointer;
+}
+
+.icons i:hover {
+    color: #1E8F7A;
+}
+
+#content {
+    margin-top: 2rem;
+}
+
+#content::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+@media (min-width: 30rem) {
+
+    body {
+        font-size: 1rem;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    nav ul {
+        display: flex;
+        gap: 1rem;
+    }
+
+    main {
+        max-width: 60rem;
+        margin: 0 auto;
+    }
+
+    main img {
+        width: 35%; 
+        float: left;
+        margin-right: 1.5rem;
+    }
+
+    #content p {
+        margin-top: 0;
+    }
+
+
+    .buttons button {
+        display: inline-block;
+        margin-right: 1rem;
+    }
+}
